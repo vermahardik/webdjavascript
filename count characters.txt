@@ -1,0 +1,5 @@
+var message= prompt();
+var totalno=message.length;
+var remaining=(140-message.length);
+alert("total no. of characters are"+" "+totalno+". No of characters left are"+remaining);
+alert("your message after trimming it down is "+message.slice(0,140));
