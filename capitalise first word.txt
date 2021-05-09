@@ -1,0 +1,7 @@
+var name1=prompt();
+var lengt=name1.length;
+var letter1=name1.slice(0,1);
+var letter1u=letter1.toUpperCase();
+var remaining=name1.slice(1,lengt);
+remaining=remaining.toLowerCase();
+alert("Hello "+letter1u+remaining);
