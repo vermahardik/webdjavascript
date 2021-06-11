@@ -1,0 +1,12 @@
+prompt ("What is you name");
+var other = prompt ("what is other persons name");
+var n= Math.random();
+n=n*100;
+n=Math.floor(n);
+n=n+1;
+alert ("You are "+n+" % likely to marry "+other+".");
+if (n>50){
+    alert ("you'll definitely marry "+other);
+} else {
+    alert("move on bro");
+}
